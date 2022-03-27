@@ -101,3 +101,35 @@ header .content form button img {
     position: relative;
     top: 10px;
 }
+/*styles for enjoy */
+
+#enjoy {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    border-top: 10px solid #24252a;
+}
+#enjoy figure {
+    position: relative;
+}
+#enjoy figure video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -53%);
+}
+#enjoy figure img {
+    position: relative;
+    z-index: 2;
+}
+#enjoy .details h1 {
+    font-size: 3.125rem;
+}
+
+#enjoy .details p {
+    font-size: 1.625rem;
+    padding: 10px 0px;
+}
+
